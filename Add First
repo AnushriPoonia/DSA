@@ -1,0 +1,7 @@
+addFirst(int data)
+{
+     node *n=new node();
+     n.data=data;
+     n.next=head;
+     head=n;
+}
