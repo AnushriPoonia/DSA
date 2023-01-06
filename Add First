@@ -1,4 +1,4 @@
-addFirst(int data)
+void addFirst(int data)
 {
      node *n=new node();
      n.data=data;
